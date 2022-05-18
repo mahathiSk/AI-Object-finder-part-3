@@ -1,0 +1,40 @@
+body {
+    background-size: cover;
+    background-position: center;
+    align-content: center;
+}
+
+.header {
+    width: 100%;
+    margin: 0px;
+    font-size: 30;
+    font-family: 'Moon Dance', cursive;
+    color: purple;
+}
+
+p{
+    color: greenyellow;
+    margin-bottom: 0px;
+    font-size: 30;
+    font-family: 'Square Peg', cursive;
+}
+
+.object_name {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+canvas{
+    border: 3px dashed palevioletred;
+    border-radius: 15px;
+    margin-top: 130px;
+
+    animation-name: box;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes box{
+    from{box-shadow: 5px 5px 5px purple;}
+    to{box-shadow: 5px 5px 5px pink}
+}
